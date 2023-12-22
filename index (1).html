@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower delivery in Almaty</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- тело -->
+
+<header>
+
+    <section class="flex">
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="image-link">
+            <img src="images/logo.png" alt="logo">
+        </a>
+    <div class="registration">
+            <a href="#" class="reg-img" onclick="openModal()">login</a>
+        </div>
+   <!-- Добавьте следующий код внутри тега <body> вашего HTML-документа -->
+<div class="modal" id="registrationModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Регистрация</h2>
+        <form id="registrationForm">
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="register()">Зарегистрироваться</button>
+        </form>
+
+        <p>Уже есть аккаунт? <a href="#" onclick="switchToLogin()">Войти</a></p>
+    </div>
+</div>
+
+<div class="modal" id="registrationModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Регистрация</h2>
+      <form id="registrationForm">
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="register()">Зарегистрироваться</button>
+      </form>
+
+      <p>Уже есть аккаунт? <a href="#" onclick="switchToLogin()">Войти</a></p>
+    </div>
+  </div>
+
+  
+          
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+    </section>
+
+</header>
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Memlekettik organdarǵa </h3>
+            <h3>ótinishter,shaǵymdar,talaptar berý</h3>
+            <p>Ákimdikter, Mınıstrlikter, Komıtetter, agenttikter jáne basqa mekemeler jáne búrokratıalyq kidirissiz</p>
+          
+            <a href="#" class="btn">ysynys jazy</a>
+           
+
+
+        </div>
+      
+    <div class="komek-surau"> 
+        <a href="#" class="bton">1414 komek</a>
+
+        </div>
+       
+        
+    </section>
+
+</div>
+
+<!-- главная страница -->
+
+<section class="about" id="about">
+    <!-- разметка о нас -->
+
+    <h1 class="heading"> <span> Servic Turaly </span> </h1> 
+
+    <div class="row">
+<!--  Это элемент <video>, src указывает на путь к видеофайлу -->
+        <div class="video-container">
+            <img src="images/Group 7 (4).png"loop autoplay muted></img>
+        </div>
+
+        <div class="content">
+            <h3>biz kalai kizmet etemiz?</h3>
+            <p>Siz oz kalanizdin akimshiliginin kyzmeterin atqarmai zhurgeninen habardar bolsanyz bizdin sait arquly sagqum zhazunuz</p>
+            <p>Shynkyr kop zholdar,nashar internet,akimderdi korupsia boinsha teksery</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- какие цветы есть в нашем магазине -->
+
+<section class="products" id="products">
+
+    <section class="heading"> SURAQ <span>ZHAUAP</span></section></h1> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="c:\Users\Admin\Desktop\Flower_shop\images\1.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">oku</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>kalai usunys jazuga bolady</h3>
+
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="c:\Users\Admin\Desktop\Flower_shop\images\2.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">oku</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smart qalany tagy kai jerden tabyga bolady</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="c:\Users\Admin\Desktop\Flower_shop\images\8.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">oku</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smart qalany tagy kai jerden tabyga bolady</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="c:\Users\Admin\Desktop\Flower_shop\images\6.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">oku</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smart qalany tagy kai jerden tabyga bolady</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="c:\Users\Admin\Desktop\Flower_shop\images\7.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">oku</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smart qalany tagy kai jerden tabyga bolady</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="c:\Users\Admin\Desktop\Flower_shop\images\5.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">oku</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>smart qalany tagy kai jerden tabyga bolady</h3>
+            </div>
+        </div>
+
+   
+
+</section>
+
+
+<section class="review" id="review">
+
+<h1 class="heading"> Janalyktar <span></span> </h1>
+<a href="#">
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#">    Жеке тұлғалардың банкроттығы дегеніміз – кредиттер мен микроқарыздарды төлеу міндеттемелерін орындауда қиындыққа тап болған азаматтар үшін </a>
+
+           </p>
+        <div class="user">
+            <div class="user-info">
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#"> Jeke tulǵalardyń bankrottyǵy degenimiz ne?
+            Жеке тұлғалардың банкроттығы дегеніміз – кредиттер мен микроқарыздарды төлеу міндеттемелерін орындауда қиындыққа тап болған азаматтар үшін 
+        </a>
+        <div class="user">
+            
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#">    Жеке тұлғалардың банкроттығы дегеніміз – кредиттер мен микроқарыздарды төлеу міндеттемелерін орындауда қиындыққа тап болған азаматтар үшін </a>
+       
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+</div>
+    
+</section>
+
+
+
+<!-- нижняя колонка -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="imgus">
+            <img src="images/Group 8.png" alt="">
+
+        </div>
+
+        <div class="box">
+            <h3>платформа</h3>
+            <a href="#">личный аккаунт</a>
+          
+        </div>
+
+        <div class="box">
+            <h3>Alumetik Jeli</h3>
+            <a href="#">            <img src="images/Link → Img - facebook (1).png" alt="">
+            </a>
+            <a href="#">            <img src="images/Link → Img - instagram (1).png" alt="">
+            </a>
+           
+        </div>
+
+     
+
+
+</section>
+    
+</body>
+<script src="script.js"></script>
+
+</html>

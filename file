@@ -1,0 +1,731 @@
+:root{
+    --gray:#5c5257;
+}
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif,'Play', sans-serif,'Inter', sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+    background-image: url('images/Desktop - 10.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  background-position: center;
+    
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+section{
+    padding:2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container {
+    width: 100%; /* Укажите фиксированную ширину контейнера */
+    height: 2000px;
+    margin: 0 auto;
+
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+
+/* Стили для хедера */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #22721d; /* Используйте переменную для цвета */
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000; /* Задайте высокий уровень z-index */
+}
+
+/* Стили для контента страницы (добавьте класс, который вы используете для контента) */
+.container {
+    margin-top: 80px; /* Высота вашего хедера, чтобы избежать перекрытия */
+    padding: 20px;
+    
+}
+
+header .flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.logo
+{
+    font-size: 3rem;
+    color:#333;
+    font-weight: bolder;
+}
+.logo-img {
+    width: 70%; 
+    position: top;
+}
+header .logo span{
+    color:var(--gray);
+}
+
+
+.usunys {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 5px;
+    border: 10px solid #ab9090;
+    padding: 55px 27px;
+    margin-top: 80vh;
+    top: -210px; /* Отступ от верхнего края на 10px */
+    right: 370px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+
+
+}
+.usunys_btn
+{
+ font-family: Arial;
+ font-size: 15px;
+ font-weight: normal;
+ color: #ffffff;
+}
+
+.reiting {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 5px;
+    border: 10px solid rgb(171, 144, 144);
+    padding: 45px 18px;
+    margin-top: 80vh;
+    top: -970px; /* Отступ от верхнего края на 10px */
+    left: 340px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+
+
+
+}
+.reiting_btn
+{
+ font-family: Arial;
+ font-size: 15px;
+ font-weight: normal;
+ color: #ffffff;
+}
+
+.katalog {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 5px;
+    border: 10px solid rgb(171, 144, 144);
+    padding: 45px 25px;
+    margin-top: 80vh;
+    top: -970px; /* Отступ от верхнего края на 10px */
+    left: 350px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+
+
+
+}
+.katalog_btn
+{
+ font-family: Arial;
+ font-size: 15px;
+ font-weight: normal;
+ color: #ffffff;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:1rem 3rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    
+}
+
+.btn:hover{
+    background:var(--pink);
+}
+
+
+.regestration{
+    float:right;
+    padding-left: 12px;
+    text-align: left;
+    }
+.reg-img{
+     
+        position: absolute; /* Фиксированная позиция */
+        top: 1px; /* Отступ сверху */
+        right: 100px; /* Отступ справа */
+        padding: 20px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        overflow: hidden;
+
+}
+
+.devolper faq{
+        margin-top: 0; /* Убрать верхний отступ */
+        margin-left: 0; /* Убрать левый отступ */
+    
+}
+
+.FAQ
+{   float:right;
+    padding-left: 12px;
+    text-align: left;
+}
+   
+.faq-img
+{
+    position: absolute;
+    top: 1px; /* Отступ сверху */
+    right: 350px; /* Отступ справа */
+    padding: 330px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dev-img
+{
+    position: absolute;
+    width: 50%;
+    top: 0px; /* Отступ сверху */
+    right: 80px; /* Отступ справа */
+    padding:295px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.infos{
+
+    position: absolute;
+    width: 30%;
+    top: 165px; /* Отступ сверху */
+    right: 900px; /* Отступ справа */
+    padding: 550px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: top;
+
+}
+
+.infos-img
+{
+width: 300%;   
+}
+
+
+header .navbar a{
+    float: center;
+    margin-left: 50px;
+    margin-top: 0;
+    padding-left: 30px;
+
+    font-size: 1rem;
+    padding: 1.5rem;
+    color:#666;
+    background-color: #000000;
+}
+
+header .navbar a:hover{
+    color:var(--pink);
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color:#333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color:var(--pink);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content span{
+    position: relative;
+    font-weight: bold;
+    font-family:Play;
+    font-size: 75px;
+    color:var(--pink);
+    padding:0rem 0;
+    line-height: 75px;
+    left: 50px;
+    top: -170px;
+    white-space: nowrap;
+
+}
+
+.home .content span{
+    position: relative;
+    font-weight: bold;
+    font-family:Play;
+    font-size: 75px;
+    color:var(--pink);
+    padding:0rem 0;
+    line-height: 75px;
+    left: 110px;
+    top: -170px;
+    white-space: nowrap;
+
+
+}
+
+.home .content p{
+    position: relative;
+    font-family: Inter;
+    font: weight 100%;
+    font-size: 20px;
+    left: 155px;
+    top: -100px;
+    color:#000000;
+    padding:1rem 0;
+    line-height: 1px;
+}
+.home .content p{
+    position: relative;
+    font-family: Inter;
+    font: weight 100%;
+    font-size: 20px;
+    left: 125px;
+    top:-150px;
+    color:#7c5656;
+    padding:1rem 0;
+    line-height: 2px;
+    white-space: nowrap;
+
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+
+.paida{
+    position: relative;
+    font-weight: bold;
+    font-family:Play;
+    font-size: 52px;
+    color:var(--pink);
+    padding:0rem 0;
+    line-height: 75px;
+    left: 250px;
+    top: -180px;
+    white-space: nowrap;
+
+}
+
+
+.faq_1{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 70px 30px;
+    margin-top: 80vh;
+    top: -755px; /* Отступ от верхнего края на 10px */
+    right: 108px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    
+    
+}
+
+
+.faq1
+{ 
+font-family: Arial;
+font-size: 25px;
+font-weight: bold;
+color: #ffffff;
+margin-top: -55px;
+}
+
+    .chat_btn
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 3px solid #ab9090;
+    padding: 15px 20px;
+    margin-top: 80vh;
+    top: -1425px; /* Отступ от верхнего края на 10px */
+    right: -60px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+}
+
+.em{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 70px 30px;
+    top: -1555px; /* Отступ от верхнего края на 10px */
+    right:-370px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    
+}
+.e_m
+{ 
+font-family: Arial;
+ font-size: 25px;
+ font-weight: bold;
+ color: #ffffff;
+ margin-top: -55px;
+         
+}
+    
+.chat_btn2
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 3px solid #ab9090;
+    padding: 15px 20px;
+    margin-top: 80vh;
+    top: -2226px; /* Отступ от верхнего края на 10px */
+    right: -540px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+}
+
+.faq_3{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 70px 35px;
+    top: -2355px; /* Отступ от верхнего края на 10px */
+    right:-850px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    
+}
+.faq3
+{ 
+font-family: Arial;
+ font-size: 25px;
+ font-weight: bold;
+ color: #ffffff;
+ margin-top: -55px;
+         
+}
+    
+.chat_btn3
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 3px solid #ab9090;
+    padding: 15px 20px;
+    margin-top: 80vh;
+    top: -3025px; /* Отступ от верхнего края на 10px */
+    right: -1025px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+}
+
+.faq_4{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 70px 30px;
+    top: -2975px; /* Отступ от верхнего края на 10px */
+    right:110px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    
+}
+.faq4
+{ 
+font-family: Arial;
+ font-size: 25px;
+ font-weight: bold;
+ color: #ffffff;
+ margin-top: -55px;
+         
+}
+    
+.chat_btn4
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 3px solid #ab9090;
+    padding: 15px 20px;
+    margin-top: 80vh;
+    top: -3648px; /* Отступ от верхнего края на 10px */
+    right: -55px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+}
+
+.faq_5{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 70px 30px;
+    top: -3775px; /* Отступ от верхнего края на 10px */
+    right:-370px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    
+}
+.faq5
+{ 
+font-family: Arial;
+ font-size: 25px;
+ font-weight: bold;
+ color: #ffffff;
+ margin-top: -55px;
+         
+}
+    
+.chat_btn5
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 3px solid #ab9090;
+    padding: 15px 20px;
+    margin-top: 80vh;
+    top: -4447px; /* Отступ от верхнего края на 10px */
+    right: -535px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+}
+
+.faq_6{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 70px 30px;
+    top: -4575px; /* Отступ от верхнего края на 10px */
+    right:-852px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    
+}
+.faq6
+{ 
+font-family: Arial;
+ font-size: 25px;
+ font-weight: bold;
+ color: #ffffff;
+ margin-top: -55px;
+         
+}
+    
+.chat_btn6
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 3px solid #ab9090;
+    padding: 15px 20px;
+    margin-top: 80vh;
+    top: -5247px; /* Отступ от верхнего края на 10px */
+    right: -1025px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+}
+.janalyk{
+    position: relative;
+    font-weight: bold;
+    font-family:Play;
+    font-size: 52px;
+    color:var(--pink);
+    padding:0rem 0;
+    line-height: 75px;
+    left: -100px;
+    top: -5000px;
+    white-space: nowrap;
+
+}
+
+.jblock
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 210px 210px;
+    top: -4985px; /* Отступ от верхнего края на 10px */
+    left:-75px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+}
+
+.jblock2
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 210px 210px;
+    top: -4985px; /* Отступ от верхнего края на 10px */
+    right:51px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+}
+
+.jblock3
+{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 7px solid #ab9090;
+    padding: 210px 210px;
+    top: -5422px; /* Отступ от верхнего края на 10px */
+    right:-850px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+}
+
+.footerus
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #000000;
+    padding: 80px;
+    text-align: center;
+ }
+
+.foot-img 
+{
+    position: absolute;
+    width: 30%;
+    top: 0px; /* Отступ сверху */
+    right: 780px; /* Отступ справа */
+    padding:10625px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.call_btn{
+    position: fixed;
+    display: inline-block;
+    background-color: #26851f;
+    border-radius: 10px;
+    border: 3px solid #22721d;
+    padding: 20px 15px;
+    margin-top: 80vh;
+    top: 80px; /* Отступ от верхнего края на 10px */
+    right: 150px; /* Отступ от левого края на 10px */
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;  
+    z-index: 2;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Дополнительные стили для планшетов и компьютеров */
+  }
